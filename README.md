@@ -36,40 +36,40 @@ These tags are standard data-* Tags for configuration the player interface.
 
 Parameter / Description
 
-id="raypackobject"
+id="raypackobject"<br>
 Description: defines the name of the Raypack Object, you can change as you need this.
 
-src="raypackjs/apploader.js?01"
+src="raypackjs/apploader.js?01"<br>
 Description: defines the source path of the raypack application loader. The addon "?01" is not required, but usefull when you want not that a cached version is loaded. For new version simply add a new number lik "?02" or "?03". 
 
-data-raypack-key="free"
+data-raypack-key="free"<br>
 Description: Defines the raypack license key. Please note that the player is free as long as you do not use it for commercial projects. The free version also shows very 4 seconds the Raypack logo.
 
-data-raypack-user="username"
+data-raypack-user="username"<br>
 Description: Defines the username for the license key. You can leave it clear for the free version.
 
-data-raypack-url="/raypack/raypack360/postbankdemo/stich_complete_prores.json"
+data-raypack-url="/raypack/raypack360/postbankdemo/stich_complete_prores.json"<br>
 Description: Defines the playlist format. We support Raypack.ai json manifest. This is a manifest generate by our Raypack AI 360 Transcoder. Alternate you can use .m3u8 HLS Files as well .mp4 files.
 
-data-raypack-player="raypack360player" 
+data-raypack-player="raypack360player" <br>
 Description: Defines the videoplayer name.
 
-data-raypack-playersrc="raypacksource"
+data-raypack-playersrc="raypacksource" <br>
 Description: Defines the video source of the raypack-player. Please note that you can use a standard video HTML Object here.
 
-data-raypack-playmode="equirectangular"
+data-raypack-playmode="equirectangular" <br>
 Description: Defines the raypack-cdn folder path for all third-party libraries. We do not recommend that you change this if it is not required.
 
-data-raypack-settings
+data-raypack-settings <br>
 Description: Raypack Player Settings Parameter: Defines the 360 parameter.
 
-autoplay
+autoplay <br>
 Description: starts the player as soon as the player has loaded all components. Please note that on iPhones autostart is not allowed, you have to press 2 times the play button.
 
-clickdrag
+clickdrag <br>
 Description: On Desktop you can enable to click and drag inside the 360 videoplayer. Clickdrag false is that it rotates as soon as you are in the video. Clickdrag true only rotates the video when you click and hole the mouse.
 
-initFov
+initFov <br>
 Description: Defines 
       "initLon":150,
       "initLat":0,
