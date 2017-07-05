@@ -37,7 +37,8 @@ These tags are standard data-* Tags for configuration the player interface.
 Parameter / Description
 
 id="raypackobject"
-Describtion: defines the name of the Raypack Object, you can change as you need this.
+
+Description: defines the name of the Raypack Object, you can change as you need this.
 
 src="raypackjs/apploader.js?01"
 Description: defines the source path of the raypack application loader. The addon "?01" is not required, but usefull when you want not that a cached version is loaded. For new version simply add a new number lik "?02" or "?03". 
@@ -154,8 +155,6 @@ Description: Defines
     }'
   > 
  
-
-     
 
 </script>
 
