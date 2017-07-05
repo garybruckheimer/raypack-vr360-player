@@ -30,55 +30,75 @@ Raypack 360 Features
 Installation
 ------------
 
-The Player comes with 2 Javacsript tag for installation.
+The Player comes with 2 Javacsript tag for installation. Here is the documentaiton to install and control the 360 Player interface.
 
-These tags are standard data-* Tags for configuration the player interface.
 
-Parameter / Description
+Raypack 360 Video Parameters
 
-id="raypackobject"<br>
+**id="raypackobject"<br>**
 Description: defines the name of the Raypack Object, you can change as you need this.
 
 src="raypackjs/apploader.js?01"<br>
 Description: defines the source path of the raypack application loader. The addon "?01" is not required, but usefull when you want not that a cached version is loaded. For new version simply add a new number lik "?02" or "?03". 
 
-data-raypack-key="free"<br>
+**data-raypack-key="free"<br>**
 Description: Defines the raypack license key. Please note that the player is free as long as you do not use it for commercial projects. The free version also shows very 4 seconds the Raypack logo.
 
-data-raypack-user="username"<br>
+**data-raypack-user="username"<br>**
 Description: Defines the username for the license key. You can leave it clear for the free version.
 
-data-raypack-url="/raypack/raypack360/postbankdemo/stich_complete_prores.json"<br>
+**data-raypack-url="/raypack/raypack360/postbankdemo/stich_complete_prores.json"<br>**
 Description: Defines the playlist format. We support Raypack.ai json manifest. This is a manifest generate by our Raypack AI 360 Transcoder. Alternate you can use .m3u8 HLS Files as well .mp4 files.
 
-data-raypack-player="raypack360player" <br>
+**data-raypack-player="raypack360player" <br>**
 Description: Defines the videoplayer name.
 
-data-raypack-playersrc="raypacksource" <br>
+**data-raypack-playersrc="raypacksource"<br>**
 Description: Defines the video source of the raypack-player. Please note that you can use a standard video HTML Object here.
 
-data-raypack-playmode="equirectangular" <br>
+**data-raypack-playmode="equirectangular" <br>**
 Description: Defines the raypack-cdn folder path for all third-party libraries. We do not recommend that you change this if it is not required.
 
-data-raypack-settings <br>
+**data-raypack-settings <br>**
 Description: Raypack Player Settings Parameter: Defines the 360 parameter.
 
 autoplay <br>
 Description: starts the player as soon as the player has loaded all components. Please note that on iPhones autostart is not allowed, you have to press 2 times the play button.
 
-clickdrag <br>
+**clickdrag <br>**
 Description: On Desktop you can enable to click and drag inside the 360 videoplayer. Clickdrag false is that it rotates as soon as you are in the video. Clickdrag true only rotates the video when you click and hole the mouse.
 
-initFov <br>
-Description: Defines 
-      "initLon":150,
-      "initLat":0,
-      "maxFov":70,
-      "minFov":70,
-      "returnStepLon":0,
-      "backToVerticalCenter": false,
-      "backToHorizonCenter": false,
-      "autoMobileOrientation": true
+**initFov <br>**
+Description: Defines the FOV start camera angle.
+
+**initLon <br>**
+Description: Defines the LON start camera angle.
+
+**initLat <br>**
+Description: Defines the LAT start camera angle.
+
+**maxFov" <br>**
+Description: Defines the maximal FOV camera angle.
+
+**minFov" <br>**
+Description: Defines the minimal FOV camera angle.
+
+**minFov" <br>**
+Description: Defines the min FOV camera angle.
+
+**returnStepLon <br>**
+Description: Defines the return Step Lon angle. Default 0.
+
+**backToVerticalCenter <br>**
+Description: returns to vertical center. (Desktop only)
+
+**backToHorizonCenter <br>**
+Description: returns to horizon center when you are out of focus (Desktop only)
+
+**autoMobileOrientation <br>**
+Description: return 
+
+": true
     }'
 
 
