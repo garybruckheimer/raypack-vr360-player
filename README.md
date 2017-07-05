@@ -37,7 +37,6 @@ These tags are standard data-* Tags for configuration the player interface.
 Parameter / Description
 
 id="raypackobject"
-
 Description: defines the name of the Raypack Object, you can change as you need this.
 
 src="raypackjs/apploader.js?01"
