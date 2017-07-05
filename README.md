@@ -15,7 +15,7 @@ Supported Browsers for Video on Demand (VOD):
 Raypack 360 Features
 --------
 
-* Playback of Cubemap, Equirectangular, Fisheye & other Videos
+* Playback of Cubemap, Equirectangular, Fisheye 360 Videos
 * Adaptive Streaming Support incl. HLS
 * Supports HLS Live & VOD 360 Streams
 * Supports Byterange HLS for VOD
