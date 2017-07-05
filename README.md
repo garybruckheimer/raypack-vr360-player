@@ -77,13 +77,13 @@ Description: Defines the LON start camera angle. Value is number.
 **initLat <br>**
 Description: Defines the LAT start camera angle. Value is number.
 
-**maxFov" <br>**
+**maxFov <br>**
 Description: Defines the maximal FOV camera angle. Value is number.
 
-**minFov" <br>**
+**minFov <br>**
 Description: Defines the minimal FOV camera angle. Value is number.
 
-**minFov" <br>**
+**minFov <br>**
 Description: Defines the min FOV camera angle. Value is number.
 
 **returnStepLon <br>**
@@ -102,7 +102,7 @@ Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from dailey
 
 **Full Script Example with all Parameters**<br>
 
-'''javascript
+```javascript
 <script id="raypackobject" 
   type="text/javascript" 
   src="raypackjs/apploader.js?01"
@@ -173,7 +173,7 @@ Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from dailey
           "abrBandWidthUpFactor":0.7,
           "minAutoBitrate":0
     }'
-  > </script> '''
+  > </script> ```
 
 **Where to download Raypack 360 Player and see Demos?**
 -------
@@ -181,4 +181,4 @@ Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from dailey
 2) Subscribe to Live 360 Service
 3) Download VR 360 Player or try your own videos with the demo player
 
-For help, please visitour webside https://connectlounge.de/contact
+For help, please visit our webside https://connectlounge.de/contact
