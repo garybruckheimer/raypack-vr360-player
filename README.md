@@ -1,7 +1,4 @@
-# Raypack® VR 360 Player
-======
-           
-Raypack® VR 360 Player is HTML5 based Videoplayer for 360 Video player.
+#Raypack® VR 360 Player is HTML5 based Videoplayer for 360 Video player.
 
 Supported Browsers for Video on Demand (VOD):
 - Chrome for Desktop Windows, Linux, OSX, min. >Version 48
@@ -98,7 +95,7 @@ Description: returns to horizon center when you are out of focus (Desktop only).
 **autoMobileOrientation <br>**
 Description: detects mobile orientation automaticly. Value is boolean.
 
-Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from daileymotion. You can get more infos about our own fork of this project here. https://github.com/garybruckheimer/hls.js
+Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from daileymotion. You can get more infos about our own fork of this project here, grab the source code and start hacking. https://github.com/garybruckheimer/hls.js
 
 **Full Script Example with all Parameters**<br>
 
