@@ -102,7 +102,7 @@ Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from dailey
 
 **Full Script Example with all Parameters**<br>
 
-```javascript
+'''javascript
 <script id="raypackobject" 
   type="text/javascript" 
   src="raypackjs/apploader.js?01"
@@ -173,13 +173,9 @@ Streaming Controlling. Raypack 360 uses the HLS.JS Streaming library from dailey
           "abrBandWidthUpFactor":0.7,
           "minAutoBitrate":0
     }'
-  > 
-```
- 
+  > </script> '''
 
-</script>
-
-Where to download?
+**Where to download Raypack 360 Player and see Demos?**
 -------
 1) Create an Account on raypack.ai
 2) Subscribe to Live 360 Service
